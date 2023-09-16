@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Detector - Fake Account Detection</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <style>
+        /* Background Animation */
+        body {
+            background: linear-gradient(45deg, #1f4068, #2a557f);
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s infinite;
+            color: white;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Page Content Container */
+        .page-container {
+            max-width: 800px; /* Adjust the max-width as needed */
+            margin: 0 auto; /* Center the content horizontally */
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Header Styling */
+        h1 {
+            font-size: 40px;
+            color: rgb(188, 255, 249);
+            font-weight: normal;
+            text-align: center;
+        }
+
+        /* Image Styling */
+        #banner {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+        }
+
+        /* Content Styling */
+        p {
+            color: rgba(255, 255, 255, 0.9);
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        h2 {
+            font-size: 32px;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: normal;
+            text-align: center;
+        }
+
+        /* Buttons Styling */
+        .Buttoncontainer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #0074D9;
+            color: #FFFFFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        /* Small buttons at the right corner */
+        .small-buttons {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .small-button {
+            margin-bottom: 10px;
+        }
+
+        .small-button button {
+            padding: 5px 10px;
+            font-size: 14px;
+        }
+
+        /* Additional Content */
+        .additional-content {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .additional-content h3 {
+            font-size: 24px;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: normal;
+            text-align: center;
+        }
+
+        .additional-content p {
+            color: rgba(255, 255, 255, 0.9);
+            text-align: center;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+<div class="page-container">
+    <h1>The Detector - Fake Account Detection</h1>
+    <img src="static/banner.jpeg" id="banner" alt="Banner Image"><br><h2>About your Detector Companion</h2>
+    <p>
+        Step into the captivating realm of digital authenticity, where we wage war against fake accounts. Imagine a web where every profile and interaction is genuine. Our cutting-edge tech unmasks deception with a few clicks, empowering trust in a world overrun by impostors. Join us on this journey towards a safer, more authentic internet. Welcome home.
+    </p>
+    <div class="Buttoncontainer">
+        <div class="vertical-center">
+          
+          <form action="/login" method="post">
+     <input type="text" id="txtN" name="txtN" placeholder="Enter name">
+            <input type="text" id="txtP" name="txtP" >
+            
+            <input value="login" type="submit"> 
+        </form>
+        </div>
+    </div>
+    <div class="Buttoncontainer">
+        <div class="vertical-center">
+            <button>SIGN IN</button>
+        </div>
+    </div>
+</div>
+
+<!-- Small buttons at the right corner -->
+<div class="small-buttons">
+    <div class="small-button">
+        <button>About Us</button>
+    </div>
+    <div class="small-button">
+        <button>Contact</button>
+    </div>
+    <div class="small-button">
+        <button>Model Info</button>
+    </div>
+</div>
+
+<!-- Additional Content -->
+<div class="additional-content">
+    <h3>Our Mission</h3>
+    <p>
+        We are committed to making the internet a safer place by eliminating fake accounts and promoting authenticity. Our advanced technology and dedicated team work tirelessly to achieve this mission.
+    </p>
+</div>
+
+</body>
+</html>
+
+
